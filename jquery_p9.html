@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Themes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Homepage -->
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <h1>HOME PAGE</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+
+            <ul data-role="listview">
+                <li data-icon="video"><a href="#page2" data-transition="slide">Videos</a></li>
+                <li data-icon="audio"><a href="#page3" data-transition="flip">Audios</a></li>
+                <li data-icon="grid"><a href="#">Pictures</a></li>
+            </ul>
+
+            <!-- ✅ Back button only here (MAIN PAGE) -->
+            <a href="index.html" data-role="button" data-ajax="false">Back to Home</a>
+
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>footer</h4>
+        </div>
+    </div>
+
+    <!-- Videos Page -->
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <h1>Videos Panel</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h1>WELCOME TO VIDEO CENTRE</h1>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>footer</h4>
+        </div>
+    </div>
+
+    <!-- Audios Page -->
+    <div data-role="page" id="page3">
+        <div data-role="header">
+            <h1>Audio Panel</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <h1>WELCOME TO AUDIO CENTRE</h1>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <h4>footer</h4>
+        </div>
+    </div>
+
+</body>
+
+</html>

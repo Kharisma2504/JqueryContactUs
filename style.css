@@ -1,0 +1,115 @@
+/* YOUR ORIGINAL CSS (kept same) */
+* { 
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif; 
+}
+
+body { 
+  margin: 0; 
+  padding: 0; 
+  text-align: center; 
+  background: #f8f9fb; 
+  color: #222; 
+}
+
+.topbar { 
+  background: #fff; 
+  padding: 10px 0; 
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08); 
+}
+
+.nav { 
+  display: flex; 
+  justify-content: center; 
+  gap: 12px; 
+}
+
+.nav-button { 
+  border: none; 
+  padding: 8px 12px; 
+  cursor: pointer; 
+  border-radius: 6px; 
+  background: transparent; 
+  transition: background-color 0.2s; 
+}
+
+.nav-button .icon { 
+  margin-right: 6px; 
+}
+
+.container { 
+  padding: 24px; 
+  max-width: 800px; 
+  margin: 0 auto; 
+}
+
+.logo-wrap img { 
+  width: 220px; 
+  max-width: 60%; 
+  display: block; 
+  margin: 18px auto; 
+}
+
+.contact-details { 
+  text-align: left; 
+  display: inline-block; 
+  margin-top: 16px; 
+  background:#fff; 
+  padding:16px; 
+  border-radius:8px; 
+  box-shadow:0 2px 6px rgba(0,0,0,0.06); 
+}
+
+.contact-details ul { 
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+}
+
+.contact-details li { 
+  margin: 8px 0; 
+}
+
+.social { 
+  margin-top: 12px; 
+  display: flex; 
+  justify-content: center; 
+  gap: 10px; 
+}
+
+.social-btn { 
+  padding: 8px 12px; 
+  border-radius: 8px; 
+  border: none; 
+  cursor: pointer; 
+}
+
+#toggle-contact { 
+  margin-top: 16px; 
+  padding: 8px 14px; 
+  cursor: pointer; 
+}
+
+
+/* ✅ NEW — BACK TO HOME BUTTON FIXED WIDTH */
+.back-container {
+  text-align: center;
+  margin-top: 22px;
+}
+
+.back-button {
+  width: 200px;       /* FIXED SIZE */
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  cursor: pointer;
+  background: #92b8f6;    /* PSP/navy look */
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease;
+}
+
+.back-button:hover {
+  background: #f8f8f8;
+  transform: scale(1.05);
+}
